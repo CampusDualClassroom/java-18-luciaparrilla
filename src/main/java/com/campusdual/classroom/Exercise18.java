@@ -4,9 +4,9 @@ import com.campusdual.util.Utils;
 
 public class Exercise18 {
 
-	public static int[] createAndInitializeArray(int size) {
-		int[] array = new int[size];
-		for (int i = 0; i < size; i++) {
+	public static int[] createAndInitializeArray(int length) {
+		int[] array = new int[length];
+		for (int i = 0; i < length; i++) {
 			array[i] = i + 1;
 		}
 		return array;
